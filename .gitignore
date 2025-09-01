@@ -1,0 +1,87 @@
+# Multi-Agent RAG System .gitignore
+
+# Configuration files with API keys
+config/config.py
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files
+data/pdfs/*.pdf
+data/vector_store/
+*.faiss
+*.pkl
+
+# Logs
+*.log
+logs/
+multi_agent_rag.log
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+*.gif
+generated_images/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Model downloads and cache
+.cache/
+models/
+downloads/
