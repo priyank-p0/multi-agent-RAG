@@ -1,4 +1,4 @@
-# Multi-Agent RAG System 🤖🤝🤖
+# Multi-Agent RAG System
 
 A multi-agent Retrieval-Augmented Generation (RAG) system that combines multiple specialized agents to handle diverse tasks including web search, document retrieval from local PDFs, and comprehensive text generation with research capabilities.
 
